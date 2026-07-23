@@ -578,6 +578,11 @@ class SecurityPolicy
         reg_type: '4',
         policy_type: 'Registry Values',
       },
+      'Domain controller: LDAP server signing requirements enforcement' => {
+        name: 'MACHINE\System\CurrentControlSet\Services\NTDS\Parameters\LDAPServerEnforceIntegrity',
+        reg_type: '4',
+        policy_type: 'Registry Values',
+      },
       'Domain controller: Refuse machine account password changes' => {
         name: 'MACHINE\System\CurrentControlSet\Services\Netlogon\Parameters\RefusePasswordChange',
         reg_type: '4',
@@ -823,6 +828,11 @@ class SecurityPolicy
       },
       'Network security: LAN Manager authentication level' => {
         name: 'MACHINE\System\CurrentControlSet\Control\Lsa\LmCompatibilityLevel',
+        reg_type: '4',
+        policy_type: 'Registry Values',
+      },
+      'Network security: LDAP client encryption requirements' => {
+        name: 'MACHINE\System\CurrentControlSet\Services\LDAP\LDAPClientConfidentiality',
         reg_type: '4',
         policy_type: 'Registry Values',
       },

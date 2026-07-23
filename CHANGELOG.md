@@ -1,3 +1,7 @@
+## [2.1.0] - 2026-07-22
+### Added
+- Add support for 'Domain controller: LDAP server signing requirements enforcement' and 'Network security: LDAP client encryption requirements'
+
 ## [2.0.0] - 2026-07-21
 ### Changed
 - **BREAKING**: Replace Puppet 6/7 support with OpenVox 8; CI now runs on Ruby 3.2 and Ruby 4.0. The Gemfile now depends on the `openvox` gem (via `voxpupuli-test`) instead of `puppet`, and `PUPPET_VERSION` replaces `PUPPET_GEM_VERSION`
